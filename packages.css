@@ -1,0 +1,189 @@
+body {
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,72,80,0.9360994397759104) 23%, rgba(0,212,255,1) 100%); */
+}
+.container {
+    display: flex;
+    /* background-image: url("https://youtu.be/zTHH73eVU6k"); */
+}
+
+.left {
+    width: 50%;
+    padding: 20px;
+}
+
+.right {
+    margin: 2rem;
+    width: 50%;
+    /* padding: 20px; */
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.package-title{
+    text-align: center;
+}
+
+.package-title h2{
+    font-size: 40px;
+    font-weight: 650;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+.package-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image{
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.445,0.05,0.55,0.95);
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.image img{
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+.image h3{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    top: 10px;
+    right: 20px;
+}
+
+.dest-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.location h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-bottom: 1px;
+    font-family: cursive;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pac-details li{
+    font-size: 19px;
+    color: #4c4c4c;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    list-style-type: disc;
+}
+
+.image:hover{
+    filter: brightness(120%);
+    transform: scale(1.03);
+}
+
+.btn-5 {
+    width: 150px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: 1px solid ;
+    border-radius: 20px;
+    background: rgb(10, 187, 251);
+    background: linear-gradient(0deg, rgb(13, 156, 208) 0%, rgb(1, 27, 41) 100%);
+    font-size: 20px;
+}
+
+.btn-5:hover {
+    color: #1a9aea;
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.btn-5:before,
+.btn-5:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #0997fc;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-5:hover:before,
+.btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem ;
+}
+
+.airport{
+    height: 70%;
+    width: 100%;
+}
